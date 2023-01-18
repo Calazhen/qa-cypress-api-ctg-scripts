@@ -40,18 +40,18 @@ Após abrir o projeto, no mesmo terminal inicie o Cypress com o comando:
 
 Após abrir o Cypress, clique na opção E2E Testing conforme a imagem:
 
-[Project_E2E_Option]([https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/Project_E2E_Option.png](https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/Project_E2E_Option_.png))
+[Project_E2E_Option](https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/Project_E2E_Option_.png)
 
 Selecione o Navegador da sua preferência (Chrome,Edge,Electron,Firefox) e clique em "Stat E2E Testing":
-![Following_Steps]([https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/Follow_Steps.png](https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/Following_Steps_.png))
+![Following_Steps](https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/Following_Steps_.png)
 
 Com a API já rodando, clique no arquivo de testes chamado "custumers":
  
-![Test_Suit][(https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/Test_Suit.png](https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/Test_Suit_.png))
+![Test_Suit](https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/Test_Suit_.png)
 
 Todos os testes devem ser executado e passar conforme a imagem abaixo: 
  
-![All_test_passing]([https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/All_tests_passing.png](https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/All_tests_passing_.png))
+![All_test_passing](https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/blob/main/Images/All_tests_passing_.png)
 
 
 
