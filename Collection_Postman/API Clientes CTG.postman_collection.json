@@ -1,0 +1,137 @@
+{
+	"info": {
+		"_postman_id": "25a3827b-9321-400b-9ac1-4ff8d12c0ec5",
+		"name": "API Clientes CTG",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22588490"
+	},
+	"item": [
+		{
+			"name": "GETCustumer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/cliente/11",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETCustumers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080",
+					"host": [
+						"localhost"
+					],
+					"port": "8080"
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POSTCustumer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n          \"id\": 11,\r\n          \"idade\": 15,\r\n          \"nome\": \"Henrique\",\r\n          \"risco\": 0\r\n        }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/cliente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUTCustumer",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 11,\r\n  \"idade\": 26,\r\n  \"nome\": \"Henrique\",\r\n  \"risco\": 0\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/cliente",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETECustumer",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/cliente/11",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETECustumes",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/cliente/apagaTodos",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"cliente",
+						"apagaTodos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
