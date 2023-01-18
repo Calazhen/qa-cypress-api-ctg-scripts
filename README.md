@@ -88,7 +88,7 @@ O método PUT é um JSON e deve conter:
 Para uma visão completa dos códigos de resposta em cada endpoint, enquanto o seviço estiver sendo executado, veja o SWAGGER no endereço: http://localhost:8080/swagger-ui.html    
 
 
-Baixe a coleção do POSTMAN que possui os requests (métodos HTTP)  que exercitam essa API [aqui](repositorio do git):
+Baixe a coleção do POSTMAN que possui os requests (métodos HTTP)  que exercitam essa API [aqui](https://github.com/Calazhen/Automation-Test-API-CTG-Cypress/tree/main/Collection_Postman) .
 
 
 ### Contatos:
