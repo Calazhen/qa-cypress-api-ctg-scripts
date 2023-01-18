@@ -1,6 +1,6 @@
 describe('empty spec', () => {
   const baseURL = 'localhost:8080'
-  it('GET Custumer', () => {
+  it('GET an specific Custumer', () => {
     cy.request ({
       method: 'POST',
       url: baseURL + '/cliente',
@@ -81,6 +81,18 @@ describe('empty spec', () => {
   })
 
   it('PUT a Custumer',()=>{
+    cy.request ({
+      method: 'POST',
+      url: baseURL + '/cliente',
+      body:{
+        "id": 11,
+        "idade": 15,
+        "nome": "Henrique",
+        "risco": 0
+      }
+    }).then((Response) => {
+        expect (Response.status).to.eq(201)
+      })
       cy.request ({
         method: 'PUT',
         url: baseURL + '/cliente',
@@ -91,7 +103,6 @@ describe('empty spec', () => {
           "risco": 0
         }
       }).then((Response) => {
-
           expect (Response.status).to.eq(200)  
           expect (Response.body['11']).has.property('nome', 'Henrique','idade',26,'id',11,'risco',0)
      
@@ -123,7 +134,7 @@ describe('empty spec', () => {
   })
 
 
-  it('DELETE ALL custumers', ()=>{
+  it('DELETE ALL Custumers', ()=>{
   cy.request ({
     method: 'POST',
     url: baseURL + '/cliente',
@@ -158,7 +169,6 @@ describe('empty spec', () => {
 
       })
     })
-
   })
 
 
